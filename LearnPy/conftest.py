@@ -13,9 +13,9 @@ def tc_setUp():
     print("LogOff")
     print("Close Browse")
 
-<<<<<<< HEAD
+# <<<<<<< HEAD
     
 # pytest --browser %browser% --url %url% --html=reportjenkins.html
-=======
+# =======
 # some lines added---
->>>>>>> f669a945ffa90144a468b1eca1f0fbc8c51a399c
+# >>>>>>> f669a945ffa90144a468b1eca1f0fbc8c51a399c
