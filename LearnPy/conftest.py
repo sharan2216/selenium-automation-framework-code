@@ -12,3 +12,6 @@ def tc_setUp():
     yield
     print("LogOff")
     print("Close Browse")
+
+    
+# pytest --browser %browser% --url %url% --html=reportjenkins.html

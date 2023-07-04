@@ -18,4 +18,4 @@ def testCalculation():
 
 @pytest.mark.xfail
 def testCalculation1():
-    assert 2 + 2 == 5
+    assert 2 + 2 == 4

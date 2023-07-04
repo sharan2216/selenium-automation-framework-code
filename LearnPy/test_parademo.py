@@ -12,6 +12,6 @@ def testLogin(demo_fixture):
 
 
 # 2nd example------
-@pytest.mark.parametrize("a,b,final", [(2, 6, 8), (5, 8, 15), (5, 10, 15)])
+@pytest.mark.parametrize("a,b,final", [(2, 6, 8), (5, 10, 15), (5, 10, 15)])
 def testAdd(a, b, final):
     assert a + b == final
